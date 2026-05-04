@@ -23,8 +23,9 @@ jobs:
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
-        env: # 设置环境变量
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
+#        env: # 设置环境变量
+#          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
         with:
+          token: ${{ secrets.ACCESS_TOKEN }}   # 关键：这里指定 token
           folder: docs/.vuepress/dist
-          branch: gh-pages # 部署到的分支
+          branch: gh-pages
