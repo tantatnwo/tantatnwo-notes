@@ -4,9 +4,9 @@ const themeConfig = require('./config/themeConfig.js');
 
 module.exports = {
   theme: 'vdoing', // 使用npm包主题
-  title: "lql-notes",
+  title: "tantatnwo-notes",
   description: 'vdoing博客主题模板',
-  base: '/lql-notes/', // 格式：'/<仓库名>/'， 默认'/'
+  base: '/tantatnwo-notes/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
     lineNumbers: true, // 代码行号
   },
@@ -25,10 +25,10 @@ module.exports = {
         needComments: true,
         // 其他的 Vssue 配置
         autoCreateIssue: true,
-        clientId: "d3ec4ca6363950ca41a2",
-        clientSecret: "897465b6393f1d663e6128d2fab6959a0c0333cc",
-        owner: "lql95",
-        repo: "lql-notes",
+        clientId: "Ov23li4h909iccrTVMlF",
+        clientSecret: "9080a115a26ed2c4b1c63ced3d76d55d2af22fe4",
+        owner: "tantatnwo",
+        repo: "tantatnwo-notes",
       },
     ],
     // Markdown 增强

@@ -9,4 +9,4 @@
 
 测试嵌入页面：
 
-<iframe width=600 height=400 src="https://eryajf.github.io/lql-notes/archives/" scrolling="auto" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe width=600 height=400 src="https://eryajf.github.io/tantatnwo-notes/archives/" scrolling="auto" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
