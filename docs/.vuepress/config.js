@@ -38,7 +38,7 @@ module.exports = {
         // 启用流程图
         flowchart: true,
         // Enable mermaid
-        mermaid: true,
+        mermaid: false,
         // 启用 TeX 支持
         tex: true,
       },
